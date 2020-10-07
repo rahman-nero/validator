@@ -1,0 +1,21 @@
+{
+    "name": "dikae/validator",
+    "description": "Validator data",
+    "type": "library",
+    "license": "MTI",
+    "authors": [
+        {
+            "name": "Rahman",
+            "email": "dikaevr053@gmail.com"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Validator\\" : "vendor/validator/src/validator",
+            "Validator\\Language\\" : "vendor/validator/src/language"
+        }
+    }
+}
