@@ -6,6 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Validator\\Language\\' => array($vendorDir . '/validator/src/language'),
-    'Validator\\' => array($vendorDir . '/validator/src/validator'),
+    'Validator\\' => array($vendorDir . '/validator/src'),
 );

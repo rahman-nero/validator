@@ -9,13 +9,9 @@
             "email": "dikaevr053@gmail.com"
         }
     ],
-    "require": {
-
-    },
     "autoload": {
         "psr-4": {
-            "Validator\\" : "vendor/validator/src/validator",
-            "Validator\\Language\\" : "vendor/validator/src/language"
+            "Validator\\" : "vendor/validator/src/"
         }
     }
 }
