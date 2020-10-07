@@ -6,7 +6,6 @@ final class Validator
     private $_rules = [];
     private $_fields = [];
     private $_languages = [];
-    private $_requiredFields = [];
     private $_lang;
     private $_errors = [];
     private $messagesFields = [];
